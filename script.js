@@ -30,3 +30,7 @@ function formatTime(time){
 contador();
 
 setInterval(contador, 1000);
+
+function liveViews(response) {
+    document.getElementById('visitas').innerText = response.value;
+}
