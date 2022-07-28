@@ -37,3 +37,12 @@ span {
     justify-content: center;
     color: aliceblue;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    background-color: white;
+}
