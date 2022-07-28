@@ -17,7 +17,7 @@ function contador(){
     const minutos = Math.floor(totalSegundos / 3600) % 60;
     const segundos = Math.floor(totalSegundos) % 60;
 
-    diasElemento.innerHTML = dias;
+    diasElemento.innerHTML = formatTime(dias);
     horasElemento.innerHTML = formatTime(horas);
     minutosElemento.innerHTML = formatTime(minutos);
     segundosElemento.innerHTML = formatTime(segundos);
@@ -31,6 +31,7 @@ contador();
 
 setInterval(contador, 1000);
 
+// Função para o contador de visitas
 function liveViews(response) {
     document.getElementById('visitas').innerText = response.value;
 }
