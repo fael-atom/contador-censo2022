@@ -48,6 +48,22 @@ header {
     color: aliceblue;
 }
 
+.imagem-censo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-censo img {
+    width: 50%;
+}
+
+.descritivo-imagem-censo {
+    font-weight: normal;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
 footer {
     position: fixed;
     bottom: 0;
