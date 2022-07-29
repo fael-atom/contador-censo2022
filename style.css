@@ -20,10 +20,14 @@ header {
     display: flex;
     position: fixed; /* Permite aos demais conteúdos transpassarem a div */
     justify-content: space-between;
-    padding-left: 1rem;
+    padding-left: .5rem;
     color: white;
     top: 0;
     width: 100%;
+}
+
+header p {
+    font-size: 1rem;
 }
 
 .contador-container {
@@ -72,3 +76,32 @@ footer {
     font-size: small;
     background-color: white;
 }
+
+/* RESPONSIVIDADE PARA SMARTPHONES */
+
+@media screen and (max-width: 360px) {
+
+    header p {
+        font-size: .7rem;
+    }
+
+    .imagem-censo img {
+        max-width: 50%;
+        padding-top: 3rem;
+    }
+
+    .numeros {
+        font-size: 3rem;
+        margin: .5rem .8rem;
+    }
+
+    .texto-tempo {
+        font-size: .8rem;
+    }
+
+    .descritivo-imagem-censo {
+        font-size: 1rem;        
+    }
+
+
+  } 
