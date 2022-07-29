@@ -36,6 +36,11 @@ header p {
     justify-content: center;
 }
 
+#visitas {
+    font-weight: 600;
+    color:#EBB900;
+}
+
 .numeros {
     font-weight: bold;
     font-size: 6rem;
