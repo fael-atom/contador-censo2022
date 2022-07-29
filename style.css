@@ -34,6 +34,7 @@ header p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 3rem 0 3rem 0;
 }
 
 #visitas {
@@ -44,7 +45,7 @@ header p {
 .numeros {
     font-weight: bold;
     font-size: 6rem;
-    line-height: 1;
+    line-height: .7;
     margin: 1rem 2rem;
     color: aliceblue;
 }
@@ -71,6 +72,21 @@ header p {
     font-weight: normal;
     font-size: 2rem;
     color: aliceblue;
+}
+
+.botao-site-ibge {
+    padding: .8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: #EBB900;
+    border: 2.5px solid #EBB900;
+    transition-duration: 0.4s;
+}
+
+.botao-site-ibge:hover {
+    background-color: #EBB900;
+    color: rgba(0,61,126,1);
 }
 
 footer {
