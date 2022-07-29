@@ -33,7 +33,7 @@ Confira a página do projeto <a href="https://fael-atom.github.io/contador-censo
 
 
 <div  align="center">
-<img src="imagens/tela-contador.jpeg" width="30%" />
+<img src="imagens/tela-principal.jpeg" width="30%" />
 </div>
 <br>
 
