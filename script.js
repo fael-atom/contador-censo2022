@@ -14,7 +14,7 @@ function contador(){
     
     const dias = Math.floor(totalSegundos / 3600 / 24);
     const horas = Math.floor(totalSegundos / 3600) % 24;
-    const minutos = Math.floor(totalSegundos / 3600) % 60;
+    const minutos = Math.floor(totalSegundos / 60) % 60;
     const segundos = Math.floor(totalSegundos) % 60;
 
     diasElemento.innerHTML = formatTime(dias);
