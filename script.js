@@ -28,7 +28,7 @@ function contador(){
         horasElemento.innerHTML = '00';
         minutosElemento.innerHTML = '00';
         segundosElemento.innerHTML = '00';
-        descritivo.innerHTML = 'O censo do IBGE já começou!!!'
+        descritivo.innerHTML = 'O censo do IBGE já terminou...'
     }    
 }
 
