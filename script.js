@@ -8,7 +8,6 @@ const inicioCenso = "1 Aug 2022"
 
 function contador(){
     const censoData = new Date(inicioCenso);
-    console.log(censoData)
     const dataAtual = new Date();
 
     const totalSegundos = (censoData - dataAtual) / 1000;
